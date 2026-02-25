@@ -1,0 +1,142 @@
+@font-face {
+  font-family: 'Billabong';
+  src: url('fonts/Billabong.ttf') format('truetype');
+}
+
+body{
+    background-color: black;
+    color: rgb(54,54,54) ;
+    font-family: Helvetica, sans-serif;
+
+}
+
+.first-box{
+    width: 350px;
+    height: 408px;
+    border: 1px solid rgb(54,54,54);
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#logo{
+    height: 55px;
+    width: 175px;
+    margin: 40px 0px;
+    
+}
+
+input{
+    background-color:#121212;
+    border: 1px solid rgb(54, 54, 54);
+    width: 268px;
+    border-radius: 2.5px;
+    margin-bottom: 6px;
+    padding: 10px 0px 10px 8px;
+    font-size: 12px;
+    color: white;
+    
+}
+
+.login-btn{
+    background-color: #0069AD;
+    padding: 10px 0px 10px 8px;
+    width: 275px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: none;
+    color: rgb(170 175 179);
+    font-weight: bold;
+
+}
+.or-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+
+}
+.line{
+    height: 1px;
+    background-color: rgb(54, 54, 54);
+    flex-grow: 1;
+    margin: 0 10px;
+}
+.or{
+    color: rgb(170 175 179);
+    font-size: 12px;
+    font-weight: 500;
+}
+.fb-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px 0px;
+    margin-bottom: 10px;
+}
+#login{
+    text-decoration: none;
+    padding: 0px 10px;
+    color: #0069AD ;
+    font-weight: bold;
+    font-size: 16px;
+}
+.forgot-pass{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#fp{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight:100;
+}
+.second-box{
+    width: 350px;
+    height: 70px;
+    border: 1px solid rgb(54,54,54);
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sign-up{
+    color: #2051cc;
+    padding: 0px 5px;
+}
+.acc{
+    color: white;
+}
+.get{
+    color: white;
+    margin-top: 18px;
+    font-size: 14px;
+}
+.get-it{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    margin-top: 70px;
+    font-size: 12px;
+}
+.foot{
+    padding: 6px;
+    color: rgb(168,168,168);
+}
+.foot2{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    margin-top: 17px;
+    font-size: 12px;
+}
+.img-btn:hover{
+    cursor: pointer;
+}
